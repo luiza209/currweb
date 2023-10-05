@@ -1,0 +1,102 @@
+/* Estilo geral para a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', 'Poppins', 'Titillium Web', sans-serif;
+    color: black;
+}
+
+body {
+    background-color: rgb(150, 148, 159);
+    height: 100vh;
+}
+
+/* Estilo da foto de perfil */
+.foto-perfil {
+    border-radius: 100%;
+    max-width: 200px;
+    border: 1px solid black;
+}
+
+/* Estilo do cabeçalho */
+header {
+    padding: 40px 4%;
+    text-align: center;
+}
+
+/* Estilo do menu de navegação */
+header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .menu-desktop {
+    padding: 10px 40px;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    line-height: normal;
+    text-align: center;
+}
+
+/* TECNOLOGIAS */
+.Tecnologias .tecnologias {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 50px; 
+}
+
+
+section.Tecnologias .titulo {
+    text-align: center;
+}
+
+section.Tecnologias h2,
+section.awards h2 {
+text-align: center;
+}
+
+.tecnologias img {
+    width: 30px; 
+    height: 30px;
+    margin: 10px; 
+    fill: #0c0f0d; 
+}
+
+/* Estilo do título principal */
+h1 {
+    display: inline-block;
+    padding: 0 40px;
+    padding: 40px;
+}
+
+/* Estilo de subtítulos */
+h2 {
+    margin: 40px;
+    text-align: center;
+    padding: 0 40px;
+    display: inline-block;
+}
+
+/* Estilo de itens de lista */
+li {
+    margin: 40px;
+}
+
